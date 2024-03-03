@@ -35,13 +35,12 @@ $area = $width * $breadth;
 // echo $area;
 ?>
 
-<p class=" rounded-xl py-5 mt-5 text-center text-5xl font-mono font-bold w-[500px] mx-auto bg-white">
+<p class=" rounded-xl py-5 mt-5 text-center text-5xl font-mono font-bold max-w-[500px] mx-auto bg-white">
     <?= $area ?> Sqft
 </p>
 
 <div class="flex mt-5 mx-auto justify-center gap-10">
     <a href="./index.php" type="submit" class="text-white mr-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Calculate Again</a>
-
 
     <a href="./areaRecords.php" type="submit" class="text-white mr-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">See Area Records</a>
 </div>
